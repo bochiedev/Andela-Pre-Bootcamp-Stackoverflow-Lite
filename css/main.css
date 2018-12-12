@@ -235,12 +235,15 @@ hr{
   position: relative;
   margin: 0 auto;
   width: calc(50%);
+  margin-bottom: 100px;
 }
 
 .form .checkbox{
   vertical-align: center;
-  
+}
 
+.form .form-image{
+  border: none!important;
 }
 
 .form-footer{
@@ -255,12 +258,11 @@ hr{
 
 }
 
-
-
 .form-group{
-  position: relative;
-  margin: 0px auto;
   padding: 10px 10px;
+}
+.form-group label{
+  margin: 10px 12px;
 }
 
 .form-control{

@@ -9,21 +9,29 @@
     <meta name="author" content="Bochie">
     <title>Welcome to StackOverflow Lite</title>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
 
 </head>
 <body class="bg-light">
   <!-- Start Navigation bar -->
   <div class="navbar">
-    <nav class="bg-dark text-light">
+    <nav class="text-light bg-info">
 
       <div class="logo">
-        <a class="text-light" href="index.html">Logo</a>
+        <a class="text-light" href="index.html" ><i class="fab fa-stack-overflow"> </i> &nbsp; <span class="small"> Stack<b>Overflow</b> lite</span></a>
+      </div>
+
+      <div class="navbar-close">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
       </div>
 
       <ul class="list">
-        <li class="list-item"><a class="text-light active" href="#"> Home </a></li>
-        <li class="list-item"><a class="text-light" href="#"> Questions </a></li>
-        <li class="list-item"><a class="text-light" href="#"> Login </a></li>
+        <li class="list-item"><a class="text-light" href="index.html"> Home </a></li>
+        <li class="list-item"><a class="text-light" href="questions.html"> Questions </a></li>
+        <li class="list-item"><a class="text-light" href="login.html"> Login </a></li>
       </ul>
 
     </nav>
@@ -31,7 +39,12 @@
   <!-- End Navigation bar -->
 
   <!-- Start Banner -->
-  <section class="banner">
+  <section class="banner banner-home bg-info text-light">
+    <div class="container">
+      <h2>Learn, Share, Build</h2>
+      <p>Each month, over 50 million developers come to Stack Overflow to learn, share their knowledge, and build their careers.</p>
+      <buttton class="btn bg-light text-info">Join Stack</button>
+    </div>
   </section>
   <!-- End Banner -->
 

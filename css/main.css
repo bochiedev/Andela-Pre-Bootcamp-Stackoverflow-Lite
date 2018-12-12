@@ -224,11 +224,44 @@ nav a{
   border-right: 1px solid rgba(0,0,0,.1);
 }
 
+.container-question{
+  display: flex;
+  box-sizing: border-box;
+}
+
+.question h3{
+  padding: 10px 20px;
+}
 
 hr{
   border:0px;
   border-bottom: 1px solid rgba(0,0,0,.1);
+}
 
+
+.question-votes{
+  padding: 20px 10px;
+  flex: 1;
+}
+.question-info{
+  padding: 20px 10px;
+  flex: 9;
+}
+.question-info p{
+  margin: 0px;
+}
+
+.question-votes{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+.container-footer{
+  display: flex;
+  padding: 20px 10px;
+  justify-content: flex-end;
 }
 
 .form {
@@ -303,7 +336,12 @@ hr{
     position: relative;
     margin: 0 auto;
     width: calc(100%);
-
+  }
+  .question-votes{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
   }
 
 

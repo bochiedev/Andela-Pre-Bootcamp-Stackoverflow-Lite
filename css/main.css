@@ -193,6 +193,19 @@ nav a{
 .text-center{
   text-align: center;
 }
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+
+.float-right{
+  float: right;
+}
+.float-left{
+  float: left;
+}
 
 .content{
   width: 100%;
@@ -218,13 +231,62 @@ hr{
 
 }
 
-
-
-.login-form {
+.form {
   position: relative;
   margin: 0 auto;
   width: calc(50%);
+}
 
+.form .checkbox{
+  vertical-align: center;
+  
+
+}
+
+.form-footer{
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 1.5em;
+}
+
+.form .form-footer a {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 20px 10px;
+
+}
+
+
+
+.form-group{
+  position: relative;
+  margin: 0px auto;
+  padding: 10px 10px;
+}
+
+.form-control{
+  border: none;
+  border-bottom: 1px solid #17a2b8;
+  padding: 1em .9em;
+  width: calc(100%);
+  background-color: transparent;
+  color: #6c757d ;
+  font-size: .9em;
+  box-sizing: border-box;
+
+}
+
+.form-control:focus{
+  border: none;
+  border-bottom: 1px solid #17a2b8;
+  outline: none;
+}
+
+.form button{
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: .1em;
+  height: 3em;
+  width: calc(100%);
 }
 
 
@@ -234,6 +296,12 @@ hr{
   }
   nav .list{
     display: none;
+  }
+  .form {
+    position: relative;
+    margin: 0 auto;
+    width: calc(100%);
+
   }
 
 

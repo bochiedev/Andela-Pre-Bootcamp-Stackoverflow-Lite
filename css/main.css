@@ -127,9 +127,7 @@ nav a{
 /* End Css Colours */
 
 
-.small{
-  font-size: 17px !important;
-}
+
 
 /* banner Colours */
 
@@ -224,11 +222,51 @@ nav a{
   border-right: 1px solid rgba(0,0,0,.1);
 }
 
+.container-question{
+  display: flex;
+  box-sizing: border-box;
+}
+
+.question-heading-info{
+  display: flex;
+  padding-top: 10px;
+}
+.question-heading-info span{
+  margin-right: 20px;
+}
+
+.question-heading{
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
 
 hr{
   border:0px;
   border-bottom: 1px solid rgba(0,0,0,.1);
+}
 
+
+.question-info{
+  padding: 20px 10px;
+  flex: 9;
+}
+.question-info p{
+  margin: 0px;
+}
+
+.question-votes{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  padding: 20px 10px;
+  flex: 1;
+}
+
+.container-footer{
+  display: flex;
+  padding: 20px 10px;
+  justify-content: flex-end;
 }
 
 .form {
@@ -303,8 +341,17 @@ hr{
     position: relative;
     margin: 0 auto;
     width: calc(100%);
-
+  }
+  .question-votes{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
   }
 
 
+}
+
+.small{
+  font-size: 0.8em !important;
 }

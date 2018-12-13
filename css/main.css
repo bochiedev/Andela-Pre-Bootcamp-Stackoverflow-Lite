@@ -127,9 +127,7 @@ nav a{
 /* End Css Colours */
 
 
-.small{
-  font-size: 17px !important;
-}
+
 
 /* banner Colours */
 
@@ -229,8 +227,17 @@ nav a{
   box-sizing: border-box;
 }
 
-.question h3{
-  padding: 10px 20px;
+.question-heading-info{
+  display: flex;
+  padding-top: 10px;
+}
+.question-heading-info span{
+  margin-right: 20px;
+}
+
+.question-heading{
+  padding: 0px 20px;
+  box-sizing: border-box;
 }
 
 hr{
@@ -239,10 +246,6 @@ hr{
 }
 
 
-.question-votes{
-  padding: 20px 10px;
-  flex: 1;
-}
 .question-info{
   padding: 20px 10px;
   flex: 9;
@@ -254,8 +257,10 @@ hr{
 .question-votes{
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content:flex-start;
   align-items: center;
+  padding: 20px 10px;
+  flex: 1;
 }
 
 .container-footer{
@@ -345,4 +350,8 @@ hr{
   }
 
 
+}
+
+.small{
+  font-size: 0.8em !important;
 }
